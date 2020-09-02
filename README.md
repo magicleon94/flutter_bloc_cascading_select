@@ -9,3 +9,5 @@ The idea is to have a sequence of chained `ChoiceBloc`, each one with a specific
 Selecting a choice will reset all the subsequent choices in a cascade fashion.
 
 The chain can be edited by changing the `kChoicesSequence` array content in `app.dart`.
+
+![Example](https://github.com/magicleon94/flutter_bloc_cascading_select/blob/master/example_gif.gif?raw=true)
