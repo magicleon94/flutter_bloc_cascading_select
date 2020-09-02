@@ -8,3 +8,4 @@ The idea is to have a sequence of chained `ChoiceBloc`, each one with a specific
 
 Selecting a choice will reset all the subsequent choices in a cascade fashion.
 
+The chain can be edited by changing the `kChoicesSequence` array content in `app.dart`.
