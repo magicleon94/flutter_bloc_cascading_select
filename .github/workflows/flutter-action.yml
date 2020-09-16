@@ -20,7 +20,7 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           #flutter-version: '1.9.1+hotfix.6'
-            flutter-version: '2.9.0'  
+          flutter-version: '2.9.0'  
       - run: flutter pub get
       - run: flutter test
       - run: flutter build apk
